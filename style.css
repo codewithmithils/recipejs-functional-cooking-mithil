@@ -120,3 +120,48 @@ main {
     background-color: #f8d7da;
     color: #721c24;
 }
+
+/* CONTROLS */
+.controls {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.controls h3 {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+    color: #333;
+}
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.filter-btn,
+.sort-btn {
+    padding: 0.5rem 1.2rem;
+    border: 2px solid #6c63ff;
+    background: white;
+    color: #6c63ff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.25s ease;
+}
+
+.filter-btn:hover,
+.sort-btn:hover {
+    background: #ecebff;
+    transform: translateY(-2px);
+}
+
+.filter-btn.active,
+.sort-btn.active {
+    background: #6c63ff;
+    color: white;
+}
